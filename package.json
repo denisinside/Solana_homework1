@@ -3,5 +3,10 @@
     "@solana-developers/helpers": "^2.5.5",
     "@solana/web3.js": "^1.95.3",
     "esrun": "^3.2.26"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/transfer.js",
+    "dev": "ts-node src/transfer.ts"
   }
 }
